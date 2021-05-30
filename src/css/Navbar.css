@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.header
+{
+    width:100%;
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:black;
+}
+.title
+{
+    color:white;
+    position:relative;
+    margin-left:10px;
+}
+.image
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    float:left;
+}
+.main_header
+{
+    width:50%;
+    display:flex;
+    align-items:center;
+}
+.mess_icon
+{
+    color:white;
+    padding-right:20px;
+    position:relative;
+}
+.mess_icon:after
+{
+    content:"2";
+    position:absolute;
+    width:20px;
+    right:7px;
+    text-align:center;
+    height:20px;
+    top:-8px;
+    background-color:blue;
+    border-radius:50%;
+}

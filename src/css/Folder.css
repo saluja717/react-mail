@@ -1,0 +1,25 @@
+  
+.folder {
+    text-align:center;
+    width: 100%;
+    display: flex;
+    flex:0.35;
+    justify-content: space-around;
+    margin-top:20px;
+    text-align:center;
+    height: 50px;
+    font-size: 18px;
+    align-items: center;
+
+  }
+  
+  .folder_highlighted {
+    background-color: #c6e0f5;
+  }
+  .folder_name {
+    color: black;
+    text-align:center
+  }
+  .unread_count {
+    color: #05ced4;
+  }

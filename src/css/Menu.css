@@ -1,0 +1,59 @@
+.header_menu
+{
+    display:flex;
+    flex:0.35;
+    height:40px;
+    background-color:lightblue;
+    align-items:center;
+}
+.main_menu
+{
+    display:flex;
+}
+
+.header_menu input
+{
+    background-color:lightblue;
+    width: 80%;
+    padding:10px;
+    border-radius:3px;
+    outline:0;
+    background-color:transparent;
+    border:0;
+    font-size:15px;
+    text-align:center;
+}
+
+.make_right
+{
+    color:blue;
+}
+.sidebars
+{
+    padding-top:30px;
+    color:white;
+    height:100vh;
+    background-color:grey;
+    border-right:1px solid grey;
+    padding-right:20px;
+    
+}
+.sidebars h2
+{
+    margin-left:30px;
+}
+
+.mainbar{
+    display:flex;
+    flex:0.35;
+    border-right:1px solid grey;
+    height:100vh;
+}
+.message
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
